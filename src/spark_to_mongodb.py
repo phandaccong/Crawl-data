@@ -6,7 +6,7 @@ spark = SparkSession.builder\
         .appName('read_data_hdfs')\
         .getOrCreate()
         
-hdfs_path = 'hdfs://127.0.0.1:9000/user/cong/noi_luu_file_hdfs/'
+hdfs_path = 'hdfs://127.0.0.1:9000/user/cong/noi_luu_file_hdfs/' # Loc của HDFS
 df = spark.read.option('multiLine' , True).json(hdfs_path)
 #categories
 df = df.withColumn('categories' , concat_ws(',' , df['categories']))
@@ -28,7 +28,7 @@ df.write.mode('overwrite').csv('/home/cong/Downloads/data.csv' , header = True)
 
 
 def get_mongo_collection():
-    uri = "mongodb+srv://phandaccong:3103@tiktokcommnet.6ep1ywo.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true&appName=tiktokcomment"
+    uri = "mongodb+srv://phandaccong:password@tiktokcommnet.6ep1ywo.mongodb.net/?retryWrites=true&w=majority&tlsAllowInvalidCertificates=true&appName=tiktokcomment"
     client = MongoClient(uri)
     return client['tiktokcomment']['data_lazada']
 def write_to_mongo(rows):
