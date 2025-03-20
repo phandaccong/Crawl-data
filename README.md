@@ -45,8 +45,8 @@
   - Biểu đồ phân tán (scatter plot): Mối quan hệ giữa giá và số lượt mua  
   - Heatmap: Phân bổ mức giá theo từng danh mục
     
-  <a href="images/DAT111_DP03_FINAL.pdf">
-  <img src="images/pdf-preview.png" width="200" />
+  <a href="Lazada/powerBI.png">
+  <img src="Lazada/powerBI.png" width="200" />
 </a>
 
 ## Kết quả đạt được
