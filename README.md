@@ -60,6 +60,7 @@
 - Mức giá lý tưởng cho sản phẩm bán chạy: từ **150.000 – 300.000 VNĐ**  
 - Sản phẩm có rating trên **4 sao** có tỷ lệ mua tăng trung bình cao 
 - Official stores đạt doanh số và tỷ lệ mua lại cao hơn 40% so với shop thường
+- ...
 ## Đề xuất kinh doanh
 - Tập trung quảng bá sản phẩm trong khung giá từ 150k – 300k  
 - Khuyến khích khách hàng để lại đánh giá sau khi mua hàng  
