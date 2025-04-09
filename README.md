@@ -64,4 +64,5 @@
 ## Đề xuất kinh doanh
 - Tập trung quảng bá sản phẩm trong khung giá từ 150k – 300k  
 - Khuyến khích khách hàng để lại đánh giá sau khi mua hàng  
-- Ưu tiên hợp tác với các cửa hàng chính hãng  
+- Ưu tiên hợp tác với các cửa hàng chính hãng
+- ...
