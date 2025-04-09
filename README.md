@@ -25,17 +25,24 @@
   - Location
   - ....
 
-## Công cụ & Công nghệ
-  - ***Python***: (Selenium, Requests, Pandas, Matplotlib, Seaborn, Pytorch )
+## Công cụ & Công nghệ & Lưu trữ
+  - ***Python***: (Selenium, Requests, Pandas, Matplotlib, Seaborn, Pytorch , PySpark)
   - ***Power BI***
   - ***Jupyter notbook***
+  - ***Hadoop***
+  - ***MongoDB***
 
 ## Quy trình
-- **Thu thập dữ liệu:** Crawl dữ liệu từ các trang kết quả tìm kiếm trên Lazada theo từ khóa ( keywords )
-- **Làm sạch dữ liệu:**  
-  - Loại bỏ dữ liệu trùng lặp, dữ liệu thiếu
-  - Tách dữ liệu   
-  - Chuẩn hóa trường giá về dạng số  
+- **Thu thập dữ liệu:**
+-  Crawl dữ liệu từ các trang kết quả tìm kiếm trên Lazada theo từ khóa ( keywords )
+- ***Lưu trữ***
+-  Sau khi crawl data về thì lưu xuống HDFS
+- **Làm sạch dữ liệu:**
+  - Lấy dữ liệu từ HDFS và sử dụng pyspark   
+     - Loại bỏ dữ liệu trùng lặp, dữ liệu thiếu
+     - Tách dữ liệu   
+     - Chuẩn hóa trường giá về dạng số
+  - Lưu xuống mongodb
 - **Phân tích dữ liệu:**  
   - Thống kê giá trung bình, số lượt mua trung bình  
   - Xác định top 10 sản phẩm bán chạy nhất và được đánh giá cao nhất  
